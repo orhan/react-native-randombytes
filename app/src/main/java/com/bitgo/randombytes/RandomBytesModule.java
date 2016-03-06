@@ -10,7 +10,7 @@ import java.security.SecureRandom;
 
 import android.util.Base64;
 
-class RandomBytesModule extends ReactContextBaseJavaModule {
+public class RandomBytesModule extends ReactContextBaseJavaModule {
 
   public RandomBytesModule(ReactApplicationContext reactContext) {
     super(reactContext);
